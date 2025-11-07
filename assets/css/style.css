@@ -20,12 +20,11 @@ html {
   font-size: 62.5%;
 }
 
-/* body {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid salmon;
-} */
+}
 
 .main-container {
   max-width: 37.5rem;
@@ -221,4 +220,18 @@ tr:last-child td {
 
 .brown-800 {
   color: var(--brown-800-color);
+}
+
+/* Responsive Area */
+
+@media (min-width: 600px) {
+  body {
+    background-color: var(--stone-100-color);
+    padding: 12.8rem 4.8rem;
+  }
+
+  .main-container {
+    background-color: #fff;
+    border-radius: 24px;
+  }
 }
